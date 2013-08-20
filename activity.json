@@ -1,0 +1,8 @@
+[
+ {"icon": "green_check.png","time": "11:30 AM", "statement": "James Knitis performed test on IVIS_Hem" , "badge": ""},
+ {"icon": "green_check.png", "time": "11:40 AM", "statement": "Molly Dolan performed test on IVIS_GI_East" , "badge": ""},
+ {"icon": "green_check.png", "time": "11:50 AM", "statement": "Merideth Stouffer performed test on IVIS_Hem" , "badge": ""},
+ {"icon": "green_check.png", "time": "12:30 PM", "statement": "Jenny Yu ran a QC on Roche" , "badge": ""},
+ {"icon": "alert_icon.png", "time": "12:35 PM", "statement": "Jenny Yu performed test on IVIS_Hem" , "badge": "Out of Range"},
+  {"icon": "green_check.png", "time": "&nbsp; 1:30 PM", "statement": "Melanie Sunog ran a QC on Roche" , "badge": ""}
+ ]

@@ -1,0 +1,354 @@
+	
+#dash-main {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+#dash-left {
+	position: absolute;
+	width: 55%;
+	height: 100%;
+	z-index: 2;
+	left: 0;
+	margin-left: 0;
+}
+#dash-right {
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	z-index: 2;
+	right: 0;
+	margin-right: 0;
+}
+
+.dash-widgit {
+	position: static;
+	width: 96%;
+	height: auto;
+	z-index: 3;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 12px;
+	border: 3px solid #cacccc;
+	border-radius: 5px;
+}
+
+.widget-title {
+	font-family: Helvetica, sans-serif;
+	font-size: .8em;
+	font-weight: bold;
+	padding: 1em;
+}
+
+/********ALERT STYLES *************/
+.alert-chart .bars_g{	    
+	    fill: #e7e9e9;
+	}
+	
+.alert-chart .labels_g{
+	    fill: #585959;
+	    font-family: Helvetica, sans-serif;
+	    font-size: 12px;
+	    font-weight: 600;
+	}
+	
+.alert-chart .count_g{
+	    fill: white;
+	    font-family: Helvetica, sans-serif; 
+	    font-size: 11px;
+	    font-weight: 600;
+	}
+
+#alert-graph {
+	text-align: center;
+}
+
+/************* DEVICE STYLES ***********/
+.dev-bars-g{
+	    stroke: white;
+	    fill: #00576B;
+	}
+	
+.dev-labels-g{
+	    font-family: Helvetica, sans-serif;
+	    font-size: 12px;
+	    fill: #666;
+	    font-weight: 600;
+	}
+	
+.dev-count-g{
+	    font-family: Helvetica, sans-serif;
+	    font-size: 14px;
+	    fill: #44B3CD;
+	    font-weight: 600;
+	}
+	
+#device-graph {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#device-menu {
+	text-align: right;
+}
+
+#device-menu img {
+	padding-right: 5px;
+}
+
+.device-text {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	padding-right: 10px;
+	fill: #666;
+	margin: 0px 10px 10px 0px;	
+}
+
+/************ OPERATORS STYLES **************/
+.op-chart div {
+   font-size: 12px;
+   font-weight: 600;
+   font-family: Helvetica, sans-serif;
+   text-align: center;
+   padding: 3px;
+   color: white;
+   display: inline-block;
+   height: 50px;
+ }
+ 
+ .op-t0 {
+    background-color: #00576B;
+    text-align: center;
+    
+ }
+ 
+ .op-t1 {
+    background-color: #44B3CD;
+ }
+ 
+ .op-t2 {
+    background-color: #ffa038;
+ }
+ 
+ .op-t3 {
+    background-color: #ff8100;
+ }
+
+.op-labels div {
+   font-size: 11px;
+   font-family: Helvetica, sans-serif;
+   padding-bottom: 10px;
+   font-weight: 600;
+   color: #666;
+   padding-left: .5em;
+   color: black;
+   display: inline-block;
+   height: 20px;
+   text-align: center;
+   font-weight: 600;
+   margin-top: 8px;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   progid:DXImageTransform.Microsoft.Matrix(/* IE6�IE9 */
+                     M11=0.7071067811865476, M12=0.7071067811865475, M21=-0.7071067811865475, M22=0.7071067811865476, sizingMethod='auto expand');
+ }
+ 
+ #operator-graph {
+    text-align: center;
+    padding-bottom: 2em;
+    max-width: 200;
+    padding-left: 45px;
+    padding-right: 45px;
+ }
+
+/********* QC STYLES ****************/
+#qc-graph svg {
+  font: 9px sans-serif;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #333333;
+  shape-rendering: crispEdges;
+  padding: 15px;
+}
+
+#qc-graph  {
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+/********* RESULTS STYLES ************/
+.slice text {
+            font-size: 16pt;
+            font-family: Helvetica, sans-serif;
+}
+
+
+#results-graph{
+  margin-top: 40px;
+  text-align: center; 
+}
+
+
+.total-text-count{
+      font-family: Helvetica, sans-serif;
+      font-size: 15px;
+      fill: #333333;
+    
+}
+
+.total-text-label{
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  fill: #585959;
+}
+
+.val {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  
+}
+
+.name {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  fill: #999;
+}
+
+
+
+.key-count {
+   font-family: Helvetica, sans-serif;
+   font-size: 12px;
+   fill: white;
+   font-weight: 600;
+   
+ }
+ 
+ .key-text {
+   font-family: Helvetica, sans-serif;
+   font-size: 12px;
+   fill: #666;
+   font-weight: 600;
+ }
+
+/********** ACTIVITY STYLES **************/
+#act-time {    
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: .5em;
+	
+    }
+    
+#act-statement{
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	margin-left: .5em;
+    }
+    
+#act-badge{
+	background: #AD1400;
+	border-radius: 3px;
+	color: white;
+	padding: 2px;
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+	margin-left: .5em;
+    }
+#act-stream {
+	
+	padding: 25px 0px 25px 55px;
+}
+
+#cust-message{
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+	margin-right: 15px;
+}
+
+#cust-count {
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+	margin-right: 15px;
+	
+}
+
+/******************** BUTTONS, MENUS **********************/
+button {
+  font-family: Helvetica, sans-serif;
+  font-size: 9px;
+  background-color: #e7e9e9;
+  color: #000000;
+  padding: 5px 12px 5px 12px;
+  border: 0;
+  border-radius: 0;
+  border-right: 1px solid #999;
+  margin: 0;
+  font-weight: 600;
+}
+
+button.first {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+ 
+}
+
+button.last {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right: 0;
+
+}
+
+button.active {
+  background-color: #00819f;
+  color: #ffffff;
+  border: 0px;
+}
+
+button:hover {
+  background-color: #00819f;
+  color: #ffffff;
+
+}
+
+.button-row {
+	text-align: center;
+	margin: 0px;
+}
+
+.arrow-down-recent {
+	width: 0;
+	height: 0;
+	border-left: 5px solid #fff;
+	border-right: 5px solid #fff;
+	border-top: 5px solid #00819f;
+	margin-left: 20px;
+	
+}
+
+.arrow-down-custom {
+	width: 0;
+	height: 0;
+	border-left: 5px solid #fff;
+	border-right: 5px solid #fff;
+	border-top: 5px solid #00819f;
+	margin-left: 85px;
+	margin-top: 0px;
+	display: none;
+}
+
+#activity-button-row {
+	margin-left:60px;
+	margin-top: 10px;
+}
+ 
